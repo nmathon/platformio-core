@@ -228,6 +228,7 @@ def test_check_individual_flags_passed(clirunner, tmpdir):
 
     clang_flags_found = cppcheck_flags_found = False
     for l in result.output.split("\n"):
+        print(555, l)
         if "--fix" in l and "clang-tidy" in l and "--std=c++11" not in l:
             clang_flags_found = True
         elif "--std=c++11" in l and "cppcheck" in l and "--fix" not in l:
