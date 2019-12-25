@@ -31,7 +31,7 @@ CORE_PACKAGES = {
     "tool-scons": "~2.20501.7" if PY2 else "~3.30101.0",
     "tool-cppcheck": "~1.189.0",
     "tool-clangtidy": "^1.80000.0",
-    "tool-pvs-studio": "^7.4.35029",
+    "tool-pvs-studio": "~7.5.0",
 }
 
 PIOPLUS_AUTO_UPDATES_MAX = 100
